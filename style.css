@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Montserrat black', sans-serif;
+      text-transform: capitalize;
+  
+  }
+  h1{
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+  h2{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding-top: 25px;
+  }
+  html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  .navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(10, 10, 10);
+  }
+  .leftside , .leftsidemenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rightside{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .leftside{
+    width: 60%;
+  }
+  .rightside{
+  width: 40%;
+    margin-right: 3rem;
+  }
+  .logo img{
+    width:10rem;
+    height: 7rem;
+    align-self: flex-start;
+  }
+  .leftsidemenu li, .rightside li{
+    list-style: none;
+  }
+  .leftsidemenu li{
+    margin-right: 2rem;
+  }
+  .rightside li{
+     margin-top: 0.4rem;
+     font-size: 2rem;
+  }
+  .leftsidemenu a, .rightside a{
+    text-decoration: none;
+    font-size: 2.2rem;
+    color:white;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  .leftsidemenu a:hover, .rightside a:hover{
+    color:grey;
+  }
+  .background{
+    background-image: url('images/bgi.jpg');
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+  }
+  .caption h1{
+    color:white;
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+    font-family: emoji;
+  }
+  .caption h5{
+    color:white;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+    font-family: emoji;
+  }
+
+  .caption p{
+    color:rgba(56, 2, 2, 0.733);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+
+  
+  .caption{
+    position: relative;
+    top:20rem;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .Gallery{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Gallery img{
+    height: 28rem;
+    width:30rem;
+    border: 2px solid black;
+  
+  }
+  .gallery h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .gallery , .contactus {
+    padding-top: 1rem;
+  }
+  
+  .gallery{
+    height: 41.2rem;
+    background-color: rgba(51, 197, 46, 0.33);
+  }
+
+  .contactus{
+    background-image:url('https://cbsnews1.cbsistatic.com/hub/i/r/2017/01/11/3096f80d-d33c-42e3-a047-0dd95d879fac/thumbnail/1200x630/d809aa7a148418c9c4477279e9062604/istock-466472771.jpg');  
+    background-size:contain;
+    text-align: center;
+    height: 100%;
+    color: white;
+    text-shadow: 1px 1px 5px #000;
+    font-size: 20px;
+  }
+  
+  .contactus p{
+    font-size: 14px;
+  }
+
+  .contactus .btn1{
+    background-color: black;
+    color:white;
+    padding: 1rem;
+    margin: 0.5rem;
+    height: 4rem;
+  }
+  
+  .form1 input{
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 1.4rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .background-about{
+    background-image: url('https://res.cloudinary.com/myhq/image/upload/workspaces/cafe-coffee-day-connaught-place-l/1.jpg');
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+  }
+
+  
+
+  
+  
+
+  
+
+  
+
+ 
